@@ -5,7 +5,7 @@ use crate::key_provider::KeyProvider;
 use crate::token::IdPayload;
 use crate::token::RequiredClaims;
 use crate::token::Token;
-use serde::Deserialize;
+use serde::ser::Deserialize;
 use serde_derive::{Deserialize, Serialize};
 use serde_json;
 use std::sync::{Arc, Mutex};
